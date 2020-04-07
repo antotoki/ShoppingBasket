@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.9.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TQ.ShoppingBasket.Common\TQ.ShoppingBasket.Infrastructure.csproj" />
+    <ProjectReference Include="..\TQ.ShoppingBasket.Model\TQ.ShoppingBasket.Model.csproj" />
+    <ProjectReference Include="..\TQ.ShoppingBasket.Repository.Common\TQ.ShoppingBasket.Repository.Common.csproj" />
+    <ProjectReference Include="..\TQ.ShoppingBasket.Service.Common\TQ.ShoppingBasket.Service.Common.csproj" />
+  </ItemGroup>
+
+</Project>
